@@ -29,7 +29,7 @@ ${args}:
 ```
 where ${args} are the command lind arguments
 
-so there are 2 ways to compile and run the new version
+so there are 2 ways to compile and run the **new** compiled version
 ```
 With ant
   ant clean
@@ -45,8 +45,13 @@ Linux :
   java -cp biuoop-1.4.jar:bin Arkanoid ${args}
 ```
 
-the **precompiled** jar can be run with
+the **precompiled** jar can be run with 
 ```
+Windows cmd
+  run.cmd ${args}
+Linux bash
+  ./run.sh ${args}
+both will run the following
   java -jar Arkanoid.jar ${args}
 ```
-however, it not updated when compiling classes outside
+however, it **will not be updated** when compiling classes outside
