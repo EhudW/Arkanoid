@@ -1,0 +1,70 @@
+The hierarchy for the src folder :
+
+|   Arkanoid
+|
+\---game
+    |   GameFlow
+    |
+    +---animation
+    |       Animation    (interface)
+    |       AnimationRunner
+    |       CountdownAnimation
+    |       GameLevel
+    |       GameOverScreen
+    |       KeyPressStoppableAnimation
+    |       PauseScreen
+    |       YouWinScreen
+    |
+    +---axes
+    |       Counter
+    |       Line
+    |       MathUtil
+    |       Point
+    |       Rectangle
+    |       Velocity
+    |
+    +---levels
+    |       AbstractLevel
+    |       DirectHit
+    |       FinalFour
+    |       Green3
+    |       LevelInformation    (interface)
+    |       WideEasy
+    |
+    +---listeners
+    |       BallRemover
+    |       BlockRemover
+    |       HitListener    (interface)
+    |       HitNotifier    (interface)
+    |       ScoreTrackingListener
+    |
+    \---sprites
+            Background
+            Ball
+            Block
+            Cake
+            Cloud
+            Collidable    (interface)
+            CollisionInfo
+            ColorsUtil
+            GameEnvironment
+            Paddle
+            ScoreIndicator
+            Sight
+            SmileyAndBee
+            SpaceShip
+            Sprite    (interface)
+            SpriteCollection
+            Sun
+            Tower
+
+###############
+The hierarchy for biuoop-1.4.jar file :
+
+│
+└───biuoop :
+    │   DialogManager    (interface)
+    │   DrawSurface    (interface)
+    │   GUI
+    │   KeyboardSensor    (interface)
+    │   Sleeper
