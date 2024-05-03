@@ -3,6 +3,10 @@ arcade game using the Bar-Illan University biuoop jar file (**I don't know about
 
 based on assignment 6 of https://github.com/kleinay/biuoop2020/wiki/Assignment-2#part-2-gui-and-abstract-art
 
+
+![Level four in game gif](/gifmaker_me.gif "Level 4 gif")
+![Tower level in game](/tower.png "Tower level")
+
 # run --h
 ```
 Arkanoid game
